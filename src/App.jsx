@@ -20,6 +20,14 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+          <br />
+          <br />
+          <br />
+          {import.meta.env.VITE_BASE_URL}
+          <br />
+          <br />
+          <br />
+          {import.meta.env.VITE_NAME}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
