@@ -5,7 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log('VITE_NAME:', import.meta.env.VITE_NAME);
+  console.log('VITE_BASE_URL:', import.meta.env.VITE_BASE_URL);
+  
   return (
     <>
       <div>
